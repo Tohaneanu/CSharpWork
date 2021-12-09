@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\Tema3.exe
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\Tema3.deps.json
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\Tema3.runtimeconfig.json
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\Tema3.dll
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\ref\Tema3.dll
+C:\Users\User\RiderProjects\Tema2\Tema3\bin\Debug\net6.0\Tema3.pdb
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.dll
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\ref\Tema3.dll
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.pdb
+C:\Users\User\RiderProjects\Tema2\Tema3\obj\Debug\net6.0\Tema3.genruntimeconfig.cache
