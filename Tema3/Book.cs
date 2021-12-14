@@ -23,12 +23,13 @@ namespace Tema3
         }
 
 
-        public Book(Book book)
-        {
+        public Book(Book book):base(book.ArticleNumber,book.Title,book.PageNumber,book.IsAvailable1)
+        {   
             Author = book.Author;
             PublishingHouse = book.PublishingHouse;
             Year = book.Year;
             CoverType = book.CoverType;
+            
         }
 
         public string DisplayDetails()

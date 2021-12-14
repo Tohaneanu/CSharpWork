@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Channels;
 
 
 namespace Tema3 // Note: actual namespace depends on the project name.
@@ -36,6 +37,13 @@ namespace Tema3 // Note: actual namespace depends on the project name.
             Console.WriteLine(Sum(1.43m, 2.5m));
             Console.WriteLine(Sum(1, 2, 4, 5, 6));
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("\t EX2:");
+            Console.WriteLine();
+            Console.WriteLine();
+
             List<Article> Articles = new List<Article>()
             {
                 (new Article(1, "Article1", 120, true)),
@@ -44,13 +52,13 @@ namespace Tema3 // Note: actual namespace depends on the project name.
             };
             List<Book> Books = new List<Book>()
             {
-                new Book(4, "Title1", "Author1", publishingHouse:null, 1231, 1880, "normal"),
+                new Book(4, "Title1", "Author1", publishingHouse: null, 1231, 1880, "normal"),
                 new Book(5, "Title2", "Author2", "adaafa", 55, 1900, "normal2")
             };
             List<Magazine> Magazines = new List<Magazine>()
             {
-                new Magazine(56, "Magazine1", 33, true, 0, "spring edition", "rare","good"),
-                new Magazine(55, "Magazine2", 2, false, 22, "summer edition", "common","big frq ")
+                new Magazine(56, "Magazine1", 33, true, 0, "spring edition", "rare", "good"),
+                new Magazine(55, "Magazine2", 2, false, 22, "summer edition", "common", "big frq ")
             };
             Library lib = new Library("Libr", "str lunga", "Brasov", 30, 8, 16, Articles, Books, Magazines);
             Console.WriteLine($"Details for first article: {Articles[0].DisplayDetails()}\n");
@@ -74,7 +82,7 @@ namespace Tema3 // Note: actual namespace depends on the project name.
 
             Console.WriteLine("\n All books: ");
             lib.DisplayAllBooks();
-            
+
             Console.WriteLine("\n All magazines: ");
             lib.DisplayAllMagazines();
         }

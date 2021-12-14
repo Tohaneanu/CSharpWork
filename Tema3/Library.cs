@@ -48,7 +48,7 @@ namespace Tema3
             bool result = false;
             foreach (Article article in Articles)
             {
-                if (article.Title == title && article.IsAvailable1 == false)
+                if (string.Equals(article.Title, title) && article.IsAvailable1 == false)
                 {
                     result = true;
                 }
@@ -59,10 +59,10 @@ namespace Tema3
 
         public List<string> GetAllAutthors()
         {
-            List<string> result=new List<string>();
+            List<string> result = new List<string>();
             foreach (Book book in Books)
             {
-                if (result.Count==0 || !result.Contains(book.Author))
+                if (result.Count == 0 || !result.Contains(book.Author))
                 {
                     result.Add(book.Author);
                 }
