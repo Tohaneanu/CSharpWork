@@ -44,25 +44,25 @@ namespace Tema3 // Note: actual namespace depends on the project name.
             Console.WriteLine();
             Console.WriteLine();
 
-            List<Article> Articles = new List<Article>()
+            List<Article> articles = new List<Article>()
             {
                 (new Article(1, "Article1", 120, true)),
                 (new Article(2, "Article2", 444, false)),
                 (new Article(3, "Article3", 74, true))
             };
-            List<Book> Books = new List<Book>()
+            List<Book> books = new List<Book>()
             {
                 new Book(4, "Title1", "Author1", publishingHouse: null, 1231, 1880, "normal"),
                 new Book(5, "Title2", "Author2", "adaafa", 55, 1900, "normal2")
             };
-            List<Magazine> Magazines = new List<Magazine>()
+            List<Magazine> magazines = new List<Magazine>()
             {
-                new Magazine(56, "Magazine1", 33, true, 0, "spring edition", "rare", "good"),
-                new Magazine(55, "Magazine2", 2, false, 22, "summer edition", "common", "big frq ")
+                new Magazine(56, "Magazine1", 33, true, 0, "spring edition", "rare"),
+                new Magazine(55, "Magazine2", 2, false, 22, "summer edition", "common")
             };
-            Library lib = new Library("Libr", "str lunga", "Brasov", 30, 8, 16, Articles, Books, Magazines);
-            Console.WriteLine($"Details for first article: {Articles[0].DisplayDetails()}\n");
-            Console.WriteLine(Articles[0].ReadIt("Clean Code: A Handbook of Agile Software Craftsmanship"));
+            Library lib = new Library("Libr", "str lunga", "Brasov", 30, 8, 16, articles, books, magazines);
+            Console.WriteLine($"Details for first article: {articles[0].DisplayDetails()}\n");
+            Console.WriteLine(articles[0].ReadIt("Clean Code: A Handbook of Agile Software Craftsmanship"));
             Console.WriteLine();
             Console.WriteLine($"All articles from library: ");
             foreach (var art in lib.GetAllArticles)
@@ -85,6 +85,17 @@ namespace Tema3 // Note: actual namespace depends on the project name.
 
             Console.WriteLine("\n All magazines: ");
             lib.DisplayAllMagazines();
+
+
+
+            Console.WriteLine("\n \t Copy:");
+            Book b = new Book(4, "Title", "Author", publishingHouse: "sdada", 1231, 1880, "normal");
+            Book copy =new Book(b);
+            Console.WriteLine(copy.DisplayDetails() + "\n Article number:"+ b.ArticleNumber);
+
+            Console.WriteLine("\n \t Default value:");
+            Book bookDef = new Book(4, "Title",  1231, true, 1880, "normal","Author");
+            Console.WriteLine(bookDef.DisplayDetails());
         }
     }
 }

@@ -4,20 +4,17 @@
     {
         public int MagazineNumber;
         public string Edition;
-        public string Frequency;
-        public string AuthorFrequency;
+        public string Frequency { get; set; }
 
-        public Magazine(int articleNumber, string title, int pageNumber, bool isAvailable, int magazineNumber, string edition, string frequency, string authorFrequency) : base(articleNumber, title, pageNumber, isAvailable)
+        public Magazine(int articleNumber, string title, int pageNumber, bool isAvailable, int magazineNumber,
+            string edition, string frequency) : base(articleNumber, title, pageNumber, isAvailable)
         {
             MagazineNumber = magazineNumber == 0 ? 1 : magazineNumber;
             Edition = edition;
             Frequency = frequency;
-            AuthorFrequency = authorFrequency;
         }
 
-      
 
-      
         public int MagazineNumber1
         {
             get => MagazineNumber;
@@ -32,8 +29,7 @@
         {
             return $"Magazine Number : {MagazineNumber} \n" +
                    $"Edition : {Edition} \n" +
-                   $"Frequency : {Frequency} \n" +
-                   $"Author Frequency : {AuthorFrequency}";
+                   $"Frequency : {Frequency} ";
         }
     }
 }
