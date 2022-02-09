@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\Exercitii_1.exe
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\Exercitii_1.deps.json
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\Exercitii_1.runtimeconfig.json
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\Exercitii_1.dll
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\ref\Exercitii_1.dll
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\bin\Debug\net6.0\Exercitii_1.pdb
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.dll
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\ref\Exercitii_1.dll
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.pdb
+C:\Users\User\RiderProjects\Tema2\Exercitii_1\obj\Debug\net6.0\Exercitii_1.genruntimeconfig.cache
